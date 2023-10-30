@@ -1,32 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Styles } from '../styles';
-import { navLinks} from '../constants';
-import { logo, menu, close } from '../assets';
+import { styles } from '../styles';
+import { navLinks } from '../constants';
+import { logo, menu, close } from '../assets'
  
 const Navbar = () => {
   const [active, setActive] = useState('')
-
   return (
     <nav
-     className={`${styles.paddingX} w-full flex
-     items-center py-5 fixed top-0 z-20
-     bg-primary`}
+      className={`${styles.paddingX} w-full flex
+      items-center py-5 fixed top-0 z-20`}
     >
-      <div className="W-full flex justify-between
-      items-center max-w-7xl mx-auto">
-        <link to="/"
-        className="flex items-center gap-2"
-        onClick={() => {
-          setActive("");
-          window.scrollTo(0,0);
-        }}
+      <div classNaME="w-full flex justify-between
+      items-center max-w-7xl mmx-auto">
+        <Link
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0,0);
+          }}
         >
-         <img onScroll={logo} alt="logo" className="w-9
-         h-9 object-contain" />
-        </link>
-
+          <img src={logo} alt="logo" className="w-9
+          h-9 object-contain" />
+        </Link>
       </div>
     </nav>
   )
