@@ -47,7 +47,7 @@ const Navbar = () => {
             h-9 object-contain" />
             <p className="text-white text-[18px]
             font-bold cursor-pointer flex">Arion Mehmeti &nbsp;
-            <span className='sm:block hidden'> Creative Designer</span>
+            <span className='sm:block hidden'> &nbsp; - &nbsp; Creative Designer</span>
             </p>
             </Link>
 
