@@ -19,11 +19,21 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 
           violet-gradient"/>
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Arion</span></h1>
-        </div>
 
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}
+          >Hi, I'm Arion <span className="text-[#915eff]">
+            AKA ARXIVN</span></h1>
+            <p className={`${styles.heroSubText} mt -2
+             text-white-100`}> I'm a Creative Designer focusing
+             on sustainable <br className="sm:block hidden" /> 
+             design and wholesome user experiences.
+             </p>
+
+        </div>
       </div>
+      
+             <ComputersCanvas />
     </section>
   )
 }
