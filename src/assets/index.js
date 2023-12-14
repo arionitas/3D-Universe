@@ -29,6 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import konnect from "./company/konnect.png";
+import edX from "./company/edX.png";
+import pique from "./company/pique.png";
+import absolute from "./company/absolute.png";
+import vapeflix from "./company/vapeflix.png";
+import photoshop from "./tech/photoshop.png";
+import aftereffects from "./tech/aftereffects.png";
+import prem from "./tech/prem.png";
 
 export {
   logo,
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  konnect,
+  edX,
+  pique,
+  absolute,
+  vapeflix,
+  photoshop,
+  aftereffects,
+  prem,
 };
