@@ -37,6 +37,9 @@ import vapeflix from "./company/vapeflix.png";
 import photoshop from "./tech/photoshop.png";
 import aftereffects from "./tech/aftereffects.png";
 import prem from "./tech/prem.png";
+import HarmonyHeal from "../assets/HarmonyHeal.jpg";
+import ourgarden from "../assets/ourgarden.png";
+import spaceship from "../assets/spaceship.png";
 
 export {
   logo,
@@ -75,4 +78,7 @@ export {
   photoshop,
   aftereffects,
   prem,
+  HarmonyHeal,
+  ourgarden,
+  spaceship,
 };

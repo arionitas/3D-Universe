@@ -81,8 +81,8 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum odit deserunt ipsum, voluptatibus dolorum fugit
-          sunt qui eaque molestiae? Pariatur modi quis delectus et in vero asperiores animi deserunt voluptate.
+          I create to solve problems I identify in the problem space. To gain an understanding of the user and centring their voice
+          to the design of the product is always the goal, and the core of successful UX design. 
 
         </motion.p>
       </div>
