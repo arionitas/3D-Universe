@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon}) => {
         
         >
           <img src={icon} alt={title}
-          className="w-16 h-16 object-contain" />
+          className="object-contain w-16 h-16" />
           <h3 className="text-white text-[20px] font-bold
           text-center">{title}</h3>
           
@@ -50,15 +50,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Creative Designer with expertise using After Effects, Premier Pro and
-        Photoshop to create motion graphics and 2D/3D compositions.  
-        I have experience in JavaScript, and using frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients and teams to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Junior Software Developer passionate about UI/UX and XR design. 
+        Applying Javascript fundamentals within the frameworks of React, 
+        to weave together immersive experiences and centring of the users voice. 
+        Through usability testing approaches and Heuristic techniques, 
+        I can begin to un-earth what the user truly desires from the products I am building for them.
+         
+        I am currently exploring virtual worlds, developing my skills with Unity, 
+        Unreal Engine 5 and C# to craft multi-sensory experiences in VR 
+        (currently using the META Quest 3). 
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index=
           {index} {...service}/>
